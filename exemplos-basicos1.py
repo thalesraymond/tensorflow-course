@@ -1,18 +1,18 @@
-numero = 2
-
-vetor = [2, 3, 5]
-
 import numpy as np
 
-vetor = np.asarray(vetor)
+number = 2
 
-vetor.max()
-vetor.argmax()
-vetor.min()
-vetor.mean()
-vetor.sum()
+vector = [2, 3, 5]
 
-vetor2 = numero * vetor
+vector = np.asarray(vector)
+
+vector.max()
+vector.argmax()
+vector.min()
+vector.mean()
+vector.sum()
+
+vector_2 = number * vector
 
 np.arange(1, 50, 0.5)
 
